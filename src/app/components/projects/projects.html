@@ -1,0 +1,28 @@
+  <section id="projects" class="min-h-screen bg-slate-900 text-white py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+          Proyectos Destacados
+        </h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div *ngFor="let project of projects" 
+               class="bg-slate-800 p-6 rounded-xl hover:bg-slate-750 transition-all hover:scale-105 border border-purple-500/20 group">
+            <div class="flex items-start justify-between mb-4">
+              <div class="p-3 bg-purple-500/20 rounded-lg">
+                <svg class="w-6 h-6 text-purple-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+                </svg>
+              </div>
+              <a *ngIf="project.link" [href]="project.link" target="_blank"
+                 class="p-2 bg-white/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity hover:bg-white/20">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                </svg>
+              </a>
+            </div>
+            <h3 class="text-xl font-bold text-purple-300 mb-2">{{ project.title }}</h3>
+            <p class="text-sm text-gray-400 mb-3">{{ project.tech }}</p>
+            <p class="text-gray-300">{{ project.description }}</p>
+          </div>
+        </div>
+      </div>
+    </section>

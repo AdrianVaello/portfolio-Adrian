@@ -1,0 +1,62 @@
+  <section id="contact" class="min-h-screen bg-slate-900 text-white py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl md:text-5xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
+          Contacto
+        </h2>
+        <div class="max-w-2xl mx-auto">
+          <div class="bg-slate-800 p-8 rounded-xl border border-purple-500/20">
+            <p class="text-gray-300 mb-8 text-center">
+              ¿Tienes un proyecto en mente? ¡Hablemos!
+            </p>
+            <form (ngSubmit)="onSubmit()" class="space-y-6">
+              <div>
+                <label class="block text-gray-300 mb-2">Nombre</label>
+                <input 
+                  type="text" 
+                  [(ngModel)]="formData.name"
+                  name="name"
+                  class="w-full px-4 py-3 bg-slate-900 border border-purple-500/20 rounded-lg focus:border-purple-500 focus:outline-none text-white"
+                  placeholder="Tu nombre"
+                  required>
+              </div>
+              <div>
+                <label class="block text-gray-300 mb-2">Email</label>
+                <input 
+                  type="email" 
+                  [(ngModel)]="formData.email"
+                  name="email"
+                  class="w-full px-4 py-3 bg-slate-900 border border-purple-500/20 rounded-lg focus:border-purple-500 focus:outline-none text-white"
+                  placeholder="tu@email.com"
+                  required>
+              </div>
+              <div>
+                <label class="block text-gray-300 mb-2">Mensaje</label>
+                <textarea 
+                  [(ngModel)]="formData.message"
+                  name="message"
+                  rows="5"
+                  class="w-full px-4 py-3 bg-slate-900 border border-purple-500/20 rounded-lg focus:border-purple-500 focus:outline-none text-white resize-none"
+                  placeholder="Cuéntame sobre tu proyecto..."
+                  required></textarea>
+              </div>
+              <button 
+                type="submit"
+                class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-3 rounded-lg transition-all hover:scale-105">
+                Enviar Mensaje
+              </button>
+            </form>
+            <div class="mt-8 pt-8 border-t border-purple-500/20 text-center">
+              <p class="text-gray-400 mb-4">O contáctame directamente:</p>
+              <a href="mailto:tu@email.com" class="text-purple-400 hover:text-purple-300">
+                tu@email.com
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-slate-950 text-gray-400 py-8">
+      <div class="container mx-auto px-6 text-center">
+        <p>© 2025 Tu Nombre. Desarrollado con Angular 19 y ❤️</p>
+      </div>
+    </footer>

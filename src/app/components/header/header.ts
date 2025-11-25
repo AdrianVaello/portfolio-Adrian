@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
 })
 export class Header {
   navItems = [
-    { id: 'hero', label: 'Inicio' },
-    { id: 'experience', label: 'Experiencia' },
-    { id: 'projects', label: 'Proyectos' },
-    { id: 'skills', label: 'Habilidades' },
-    { id: 'contact', label: 'Contacto' }
+    { id: 'hero', label: 'Inicio', color: 'green' },
+    { id: 'experience', label: 'Experiencia', color:'green' },
+    { id: 'projects', label: 'Proyectos', color:'purple' },
+    { id: 'skills', label: 'Habilidades', color:'red' },
+    { id: 'contact', label: 'Contacto', color:'blue' },
   ];
 }

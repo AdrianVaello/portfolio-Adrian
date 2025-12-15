@@ -17,15 +17,15 @@ export class Skills {
  skillGroups: SkillCategory[] = [
     {
       category: 'Frontend',
-      skills: ['Angular 19', 'TypeScript', 'RxJS', 'Tailwind CSS', 'SCSS', 'HTML5', 'Responsive Design', 'Angular Material']
+      skills: ['Angular 19', 'TypeScript', 'RxJS', 'Tailwind CSS', 'SCSS', 'HTML5', 'Responsive Design', 'Angular Material', 'JavaScript']
     },
     {
       category: 'Backend',
-      skills: ['Node.js', 'Express', 'NestJS', 'PostgreSQL', 'MongoDB', 'REST APIs', 'GraphQL', 'Prisma']
+      skills: ['PHP', 'Spring Boot', 'Flask', 'MySQL', 'PhpMyadmin', 'Python']
     },
     {
       category: 'Tools & DevOps',
-      skills: ['Git', 'Docker', 'Jest', 'CI/CD', 'GitHub Actions', 'Vercel', 'Firebase', 'VS Code']
+      skills: ['Git', 'GitHub', 'Scrum', 'CI/CD', 'Vercel', 'VS Code']
     },
     {
       category: 'Soft Skills',

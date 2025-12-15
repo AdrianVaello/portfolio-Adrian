@@ -14,8 +14,11 @@
               </div>
               <div class="flex-1">
                 <h3 class="text-2xl font-bold text-green-300">{{ exp.title }}</h3>
-                <p class="text-gray-400 mb-2">{{ exp.company }} • {{ exp.period }}</p>
-                <p class="text-gray-300">{{ exp.description }}</p>
+                <p class="text-gray-400 mb-2" >
+                  <span class="experience-company-period" [innerHTML]="exp.company"></span>
+                  • {{ exp.period }}
+                </p>
+                <p class="text-gray-300 experience-description" [innerHTML]="exp.description"></p>
               </div>
             </div>
           </div>

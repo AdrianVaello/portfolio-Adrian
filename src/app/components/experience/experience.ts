@@ -16,22 +16,28 @@ interface ExperienceItem {
 export class Experience {
   experiences: ExperienceItem[] = [
     {
-      title: 'Senior Angular Developer',
-      company: 'Tech Company',
-      period: '2022 - Presente',
-      description: 'Desarrollo de aplicaciones empresariales con Angular 19, implementación de arquitecturas escalables y mentoría a desarrolladores junior.'
+      title: 'Técnico superior de investigación',
+      company: 'Universitat de València | CECT',
+      period: 'Septiembre 2024 - Enero 2026',
+      description: 'Desarrollo de scripts para análisis de datos microbiológios y su uso en proyectos europeos como <a href="https://www.bioindustry4.eu/" target="_blank" rel="noopener">Bioindustry 4.0</a>, <a href="https://microbes4climate.eu/" target="_blank" rel="noopener">Microbes4Climate</a> o <a href="https://maldibank.eu/" target="_blank" rel="noopener">Maldibank</a>, participando también en estos en la creación de deliverables y administrando sus servidores y listas de correo y usuarios implementando mejoras y actualizando los sistemas.'
     },
     {
-      title: 'Full Stack Developer',
-      company: 'Startup Inc',
-      period: '2020 - 2022',
-      description: 'Creación de MVPs y productos digitales desde cero utilizando Angular, Node.js y bases de datos SQL/NoSQL.'
+      title: 'Desarrollador frontend y arquitectura cloud para sistema de prácticas basado en IA',
+      company: 'Universitat de València',
+      period: 'Abril 2023 - Julio 2023',
+      description: 'Diseño y desarrollo de interfaz web para el muestreo de los datos. Desarrollo de una API para la conexión de la web con el sistema de gestión de prácticas.'
     },
     {
-      title: 'Frontend Developer',
-      company: 'Digital Agency',
-      period: '2018 - 2020',
-      description: 'Desarrollo de sitios web responsivos y aplicaciones SPA con Angular. Implementación de buenas prácticas y optimización de rendimiento.'
+      title: 'Recogida y análisis de de datos de un pulsioxímetro a través de una aplicación móvil',
+      company: 'Universitat Politècnica de València',
+      period: '2022',
+      description: 'Desarrollo de la conexión y recepción de datos mediante bluetooth del pulsioxímetro de bajo coste a la aplicación móvil. Diseño interfaz para muestreo de datos. Cálculo de variables médicas y su exportación en formato Excel.'
+    },
+    {
+      title: 'Aplicación web y de gestión para restaurante',
+      company: '<a href="https://lamesedora.com/" target="_blank" rel="noopener">La Mesedora</a>',
+      period: '2019-2023',
+      description: 'Diseño de la base de datoscreando un panel de administración con conexión con el frontend y la base de datos actualizando la web a los requerimientos de la empresa.'
     }
   ];
 }

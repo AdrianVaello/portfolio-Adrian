@@ -4,3 +4,19 @@
   --color-secundario: #1cc88a;
   --padding-base: 1rem;
 }
+
+.experience-description a {
+  @apply text-sky-400 underline transition-colors;
+}
+
+.experience-description a:hover {
+  @apply text-sky-300;
+}
+
+.experience-company-period a {
+  @apply text-sky-400 underline transition-colors;
+}
+
+.experience-company-period a:hover {
+  @apply text-sky-300;
+}

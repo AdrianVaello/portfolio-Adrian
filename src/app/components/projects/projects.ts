@@ -17,37 +17,33 @@ interface Project {
 export class Projects {
   projects: Project[] = [
     {
-      title: 'E-Commerce Platform',
-      tech: 'Angular 19 • Node.js • MongoDB',
-      description: 'Plataforma de comercio electrónico completa con panel de administración, gestión de inventario y pasarela de pagos.',
-      link: 'https://github.com/tuusuario/proyecto1'
+      title: 'Recogida y análisis de de datos de un pulsioxímetro a través de una aplicación móvil',
+      tech: 'Java • Java Android • CSV',
+      description: 'Aplicación móviles para la recogida de datos a través de un pulsioxímetro de bajo coste para el muestreo de datos y su posterior análisis.',
+      link: 'https://github.com/AdrianVaello/TFG-Oximetro'
     },
     {
-      title: 'Dashboard Analytics',
-      tech: 'Angular • TypeScript • Chart.js',
-      description: 'Sistema de visualización de datos en tiempo real con gráficos interactivos y exportación de reportes.',
-      link: 'https://github.com/tuusuario/proyecto2'
+      title: 'ValenBisi',
+      tech: 'React Native • TypeScript • API ',
+      description: 'Aplicación móvil para consultar en tiempo real la disponibilidad de bicicletas y estaciones del sistema de alquiler público de bicicletas de Valencia usando la API oficial de Valenbisi.',
+      link: 'https://github.com/AdrianVaello/ValenBisi'
     },
     {
-      title: 'Task Manager App',
-      tech: 'Angular • Firebase • RxJS',
-      description: 'Aplicación de gestión de tareas con sincronización en la nube, notificaciones push y colaboración en tiempo real.',
-      link: 'https://github.com/tuusuario/proyecto3'
+      title: 'Aplicación web para asignación de profesores',
+      tech: 'Angular • Typescript • Python Flask • CSV',
+      description: 'Aplicación web para la asignación de profesores de prácticas a plazas libres.',
+      link: 'https://github.com/AdrianVaello/TFM-Asignacion-Profesores'
     },
     {
-      title: 'Portfolio Generator',
-      tech: 'Angular • Tailwind CSS',
-      description: 'Generador de portfolios personalizables con múltiples temas y exportación a PDF.',
+      title: 'Portfolio CV personal ',
+      tech: 'Angular 21 • Tailwind CSS',
+      description: 'Portafolio personal para mostrar proyectos y experiencia profesional.',
+      link: 'https://adrianvaello.com/'
     },
     {
-      title: 'Weather App',
-      tech: 'Angular • OpenWeather API',
-      description: 'Aplicación del clima con pronóstico extendido, mapas interactivos y alertas meteorológicas.',
-    },
-    {
-      title: 'Chat Application',
-      tech: 'Angular • Socket.io • Express',
-      description: 'Aplicación de chat en tiempo real con salas privadas, compartir archivos y videollamadas.',
+      title: 'Repositorio de partituras de música',
+      tech: 'Próximamente',
+      description: 'Próximamente...',
     }
   ];
 }
